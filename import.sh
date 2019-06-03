@@ -1,0 +1,1 @@
+bin/neo4j-admin import --database=graph.db --nodes=import/words.csv --nodes=import/synsets.csv --relationships=import/word_synset_relation.csv --relationships=import/synset_synset_relation.csv
